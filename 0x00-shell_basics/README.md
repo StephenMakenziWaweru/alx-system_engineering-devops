@@ -1,0 +1,1 @@
+This directory contains a series of scripts that explore the basics of shell.
