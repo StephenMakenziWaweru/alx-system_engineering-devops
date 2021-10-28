@@ -10,7 +10,6 @@ do
 	m=0
 	while (( m < 59 ))
 	do
-		sleep 1m
 		(( m++ ))
 		echo $m
 	done
