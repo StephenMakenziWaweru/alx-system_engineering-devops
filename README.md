@@ -17,6 +17,9 @@ This is a series of exercises looking to elucidate students on the basics of the
 - [x] Covers variables used in the shell and how expressions expand during execution
 - [0x03 - shell variables expansions](/0x03-shell_variables_expansions)
 
+## 0x04 - Loops, conditions and parsing
+- [x] Covers ssh-keys and advanced shell commands
+- [Loops, conditions and parsing](/0x04-loops_conditions_and_parsing)
 ## command line for the win
 - [x] A series of 27 increasing challenging tasks of using the command line to execute the tasks
 - [command line for the win](/command_line_for_the_win)
