@@ -20,6 +20,11 @@ This is a series of exercises looking to elucidate students on the basics of the
 ## 0x04 - Loops, conditions and parsing
 - [x] Covers ssh-keys and advanced shell commands
 - [Loops, conditions and parsing](/0x04-loops_conditions_and_parsing)
+
+## 0x05 - Processes and Signals
+- [x] Covers advanced bash, processes and signals in linux OS
+- [Processes and Signals](/0x05-processes_and_signals)
+
 ## command line for the win
 - [x] A series of 27 increasing challenging tasks of using the command line to execute the tasks
 - [command line for the win](/command_line_for_the_win)
