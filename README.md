@@ -33,6 +33,10 @@ This is a series of exercises looking to elucidate students on the basics of the
 - [x] Basics of networking including things like OSI model, ports, networks, IPs, etc.
 - [0x07 - Networking basics](/0x07-networking_basics)
 
+## 0x08 - Networking basics 2
+- [x] An indepth coverage of basics of networks
+- [Networking basics 2](/0x08-networking_basics_2)
+
 ## command line for the win
 - [x] A series of 27 increasing challenging tasks of using the command line to execute the tasks
 - [command line for the win](/command_line_for_the_win)
