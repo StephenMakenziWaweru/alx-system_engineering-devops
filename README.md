@@ -27,7 +27,11 @@ This is a series of exercises looking to elucidate students on the basics of the
 
 ## 0x06. Regular expression
 - [x] An indepth analysis of regular expressions (regex)
-- [Regular Expressions](/0x06-regular_expressions)
+- [Regular Expressions](/0x06-regular_expressionsi)
+
+## 0x07 - Networking basics
+- [x] Basics of networking including things like OSI model, ports, networks, IPs, etc.
+- [0x07 - Networking basics](/0x07-networking_basics)
 
 ## command line for the win
 - [x] A series of 27 increasing challenging tasks of using the command line to execute the tasks
