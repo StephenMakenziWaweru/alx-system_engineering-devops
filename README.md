@@ -37,6 +37,10 @@ This is a series of exercises looking to elucidate students on the basics of the
 - [x] An indepth coverage of basics of networks
 - [Networking basics 2](/0x08-networking_basics_2)
 
+## 0x09 - Web Infrastructure design
+- [x] Covers basic web infrastructure design
+- [web infrastructure design](/0x09-web_infrastructure_design)
+
 ## command line for the win
 - [x] A series of 27 increasing challenging tasks of using the command line to execute the tasks
 - [command line for the win](/command_line_for_the_win)
