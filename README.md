@@ -41,6 +41,14 @@ This is a series of exercises looking to elucidate students on the basics of the
 - [x] Covers basic web infrastructure design
 - [web infrastructure design](/0x09-web_infrastructure_design)
 
+## 0x0A - Configuration Management
+- [x] Covers configuration managament of servers using puppet
+- [configuration management](/0x0A-configuration_management)
+
+## 0x0B - ssh
+- [x] Explores the use of ssh to connect securely to remote machines
+- [ssh](/0x0B-ssh)
+
 ## command line for the win
 - [x] A series of 27 increasing challenging tasks of using the command line to execute the tasks
 - [command line for the win](/command_line_for_the_win)
