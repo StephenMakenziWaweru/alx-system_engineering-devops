@@ -49,6 +49,10 @@ This is a series of exercises looking to elucidate students on the basics of the
 - [x] Explores the use of ssh to connect securely to remote machines
 - [ssh](/0x0B-ssh)
 
+## 0x0C - web server
+- [x] Introduction to web servers specifically Nginx and Apache2
+- [web server](/0x0C-web_server)
+
 ## 0x0D - Web Stack Debugging
 - [x] An indepth coverage of web stack debugging techniques - covers docker
 - [web stack debugging](/0x0D-web_stack_debugging_0)
