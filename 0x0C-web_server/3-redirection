@@ -4,6 +4,6 @@ apt-get -y update
 apt-get -y install nginx
 echo 'Hello World!' > /var/www/html/index.html
 # configure /redirect_me to another page
-sed -i '/server_name_;/ a \\n\trewrite ^/redirect_me$ https://ansi.org permanent;' /etc/nginx/sites-available/default
+sed -i "/server_name _;/ a\\\trewrite ^/redirect_me https://ansi.org permanent;" /etc/nginx/sites-available/default
 service nginx start
 
