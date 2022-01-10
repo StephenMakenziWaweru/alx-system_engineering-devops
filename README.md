@@ -57,6 +57,9 @@ This is a series of exercises looking to elucidate students on the basics of the
 - [x] An indepth coverage of web stack debugging techniques - covers docker
 - [web stack debugging](/0x0D-web_stack_debugging_0)
 
+## 0x0E - web Stack Debugging_1
+- [x] More on web stack debugging
+- [web_stack_debugging_1](/0x0E-web_stack_debugging_1)
 ## 0x0F - Load balancer
 - [x] Load balancing
 - [Load balancer](/0x0F-load_balancer)
