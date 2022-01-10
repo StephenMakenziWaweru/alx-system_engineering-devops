@@ -1,18 +1,6 @@
-#!/bin/bash
-# installs nginx and configures a new ubuntu server as follows:
-# 	- apt update
-#	- install nginx
-#	- create default page -> 'Hello World!'
-#	- set redirect (returns a 301 HTTP code)
+#!/usr/bin/env bash
+# configures a new ubuntu server as follows:
 #	- set X-Served-By header
-#	- create custom error page -> 'Ceci n'est pas une page'
-#	- set custom error page -> custom_404.html
 #	- restart server
-apt-get -y update
-apt-get -y install nginx
-echo "Hello World!" > /var/www/html/index.nginx-debian.html
-sed -i "/server_name _;/ a\\\trewrite ^/redirect_me https://alx-intranet.hbtn.io/ permanent;" /etc/nginx/sites-available/default
 sed -i "/server_name _;/ a\\\tadd_header X-Served-By \"\$HOSTNAME\";" /etc/nginx/sites-available/default
-echo "Ceci n'est pas une page" > /var/www/html/custom_404.html
-sed -i "/redirect_me/ a\\\terror_page 404 /custom_404.html;" /etc/nginx/sites-available/default
 service nginx restart

@@ -1,0 +1,5 @@
+#!/bin/bash
+# installs and configures HAproxy on a server as follows:
+#	- apt-get update
+#	- apt-get install HAproxy
+#	-  
