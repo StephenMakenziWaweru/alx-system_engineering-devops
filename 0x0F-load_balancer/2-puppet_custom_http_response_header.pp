@@ -3,11 +3,11 @@
 #	- apt-get install nginx
 #	- set X-Served-By -> $HOSTNAME
 #	- service restart
-exec { '/usr/bin/env apt-get -y update':}
--> package { 'nginx':
+exec { '/usr/bin/env apt-get -y update' : }
+-> package { 'nginx' :
   ensure => installed,
 }
--> file { '/var/www/html/index.html':
+-> file { '/var/www/html/index.html' :
   content => 'Holberton School!',
 }
 -> file_line { 'add header':
