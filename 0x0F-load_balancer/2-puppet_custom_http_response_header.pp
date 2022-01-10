@@ -7,6 +7,9 @@ exec { '/usr/bin/env apt-get -y update':}
 -> package { 'nginx':
   ensure => 'installed',
 }
+-> file { '/var/www/html/index.html':
+  content => 'Hello World!',
+}
 -> file_line { 'add header':
   ensure => 'present',
   path   => '/etc/nginx/sites-available/default',
