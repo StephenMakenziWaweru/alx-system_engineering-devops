@@ -3,21 +3,16 @@
 #	- apt-get install nginx
 #	- set X-Served-By -> $HOSTNAME
 #	- service restart
-exec { 'sudo apt-get update':
-  command => 'sudo apt-get update',
-  before  => Package['nginx']
-}
-
-package { 'nginx':
+exec { '/usr/bin/env apt-get -y update':}
+-> package { 'nginx':
   ensure => 'installed',
-  before => Exec['X-Served-By']
 }
-
-exec { 'X-Served-By':
-  command => 'sed -i "/server_name _;/ a\\\tadd_header X-Served-By \"\$HOSTNAME\";" /etc/nginx/sites-available/default',
-  before  => Exec['restart']
+-> file_line { 'add header':
+  ensure => 'present',
+  path   => '/etc/nginx/sites-available/default',
+  line   => "\tadd_header X-Served-By ${HOSTNAME};",
+  after  => 'server_name _;',
 }
-
-exec { 'restart':
-  command => 'sudo service nginx restart'
+-> service { 'nginx':
+  ensure => 'running',
 }
