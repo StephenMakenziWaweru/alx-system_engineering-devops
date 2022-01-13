@@ -37,11 +37,11 @@ defaults
 	errorfile 504 /etc/haproxy/errors/504.http
 frontend lb-http
 	bind *:80
-	reqadd X-Forwarded-Proto:\ http
+	mode http
 	default_backend web_servers
 
 frontend lb-https
-	bind *:443 ssl crt /etc/haproxy/certs/edrivingacademy.tech.pem
+	bind *:443 ssl crt /etc/haproxy/certs/www.edrivingacademy.tech.pem
 	reqadd X-Forwarded-Proto:\ https
     	acl letsencrypt-acl path_beg /.well-known/acme-challenge/
     	use_backend letsencrypt-backend if letsencrypt-acl
