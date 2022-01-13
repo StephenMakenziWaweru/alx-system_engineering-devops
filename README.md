@@ -41,6 +41,10 @@ This is a series of exercises looking to elucidate students on the basics of the
 - [x] Covers basic web infrastructure design
 - [web infrastructure design](/0x09-web_infrastructure_design)
 
+## 0x10-https ssl
+- [x] ssl
+-[https ssl](/0x10-https_ssl)
+
 ## 0x0A - Configuration Management
 - [x] Covers configuration managament of servers using puppet
 - [configuration management](/0x0A-configuration_management)
