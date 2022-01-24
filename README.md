@@ -68,6 +68,10 @@ This is a series of exercises looking to elucidate students on the basics of the
 - [x] Load balancing
 - [Load balancer](/0x0F-load_balancer)
 
+## 0x13 - Firewall
+- [x] Setting up UFW on web servers
+- [Firewall - ufw](/0x13-firewall)
+
 ## command line for the win
 - [x] A series of 27 increasing challenging tasks of using the command line to execute the tasks
 - [command line for the win](/command_line_for_the_win)
